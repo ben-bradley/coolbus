@@ -1,0 +1,36 @@
+{
+  "name": "coolbus",
+  "version": "0.0.0",
+  "description": "A cross-script, shared event bus.",
+  "homepage": "https://github.com/ben-bradley/coolbus",
+  "bugs": "https://github.com/ben-bradley/coolbus/issues",
+  "author": {
+    "name": "Ben Bradley",
+    "email": "",
+    "url": "https://github.com/ben-bradley"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ben-bradley/coolbus"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "coolbus",
+    "event",
+    " bus",
+    " pubsub"
+  ],
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "eventemitter2": "^0.4.14"
+  }
+}
