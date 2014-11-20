@@ -1,6 +1,6 @@
 {
   "name": "coolbus",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A cross-script, shared event bus.",
   "homepage": "https://github.com/ben-bradley/coolbus",
   "bugs": "https://github.com/ben-bradley/coolbus/issues",
