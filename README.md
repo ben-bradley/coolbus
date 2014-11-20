@@ -14,13 +14,13 @@ npm install coolbus
 
 ## Use
 
-To use CoolBus, you just have to `var coolbus = require('coolbus')` at the top of your module and you'll be able to share events across each module requireing the same instance of the script.  No need to pass objects back and forth at require time, the module handles all that for you!
+To use CoolBus, you just have to `var coolbus = require('coolbus')` at the top of your module and you'll be able to share events across each module requiring the same instance of the script.  No need to pass objects back and forth at require time, the module handles all that for you!
 
 ## Example
 
 ### Basic usage
 
-```
+```javascript
 var coolbus = require('coolbus');
 
 var busA = coolbus.bus('busA');
@@ -45,8 +45,8 @@ busA.emit('beep/2');
 
 *app.js*
 
-```
-var coolbus = require('../'),
+```javascript
+var coolbus = require('coolbus'),
   moduleA = require('./moduleA'),
   moduleB = require('./moduleB');
 
@@ -63,8 +63,8 @@ busA.emit('beep/a', 'app.js');
 
 *moduleA.js*
 
-```
-var coolbus = require('../');
+```javascript
+var coolbus = require('coolbus');
 
 var busA = coolbus.bus('a'),
   busB = coolbus.bus('b');
@@ -77,8 +77,8 @@ busA.on('beep/a', function (from) {
 
 *moduleB.js*
 
-```
-var coolbus = require('../');
+```javascript
+var coolbus = require('coolbus');
 
 var busA = coolbus.bus('a'),
   busB = coolbus.bus('b');
@@ -107,4 +107,4 @@ busB.on('beep/b', function (from) {
 
 ## Versions
 
-- 0.0.1 _(2014-11-20)_ Initial commit
+- 0.0.1 *(2014-11-20)* Initial commit
