@@ -104,3 +104,7 @@ busB.on('beep/b', function (from) {
 - `list()` - Returns an array of bus `name`s.
 - `each(callback)` - Iterates all busses returned via `callback`
   - `callback` - Required, function - Signature is `function(bus)`
+
+## Versions
+
+- 0.0.1 _(2014-11-20)_ Initial commit
