@@ -1,4 +1,4 @@
-# CoolBus [![Build Status](https://secure.travis-ci.org/ben-bradley/coolbus.png?branch=master)](http://travis-ci.org/ben-bradley/coolbus)
+# CoolBus [![Build Status](https://secure.travis-ci.org/ben-bradley/coolbus.png?branch=master)](http://travis-ci.org/ben-bradley/coolbus) [Slides](http://slides.com/ben-bradley/coolbus)
 
 ![Cool Bus - http://www.theindyboys.com/cool-bus/](coolbus.png)
 
