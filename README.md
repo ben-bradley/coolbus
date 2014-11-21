@@ -1,5 +1,7 @@
 # CoolBus [![Build Status](https://secure.travis-ci.org/ben-bradley/coolbus.png?branch=master)](http://travis-ci.org/ben-bradley/coolbus)
 
+![Cool Bus - http://www.theindyboys.com/cool-bus/](coolbus.png)
+
 > A cross-module, shared event bus.
 
 This module is intended to give developers a way to share events between various modules.  If you've broken your app into multiple modules, but you want to be able to share events between those moduels without having to pass an event object between each module at require time, CoolBus is for you!
@@ -108,3 +110,7 @@ busB.on('beep/b', function (from) {
 ## Versions
 
 - 0.0.1 *(2014-11-20)* Initial commit
+
+## Credits
+
+- Image at the top is from http://www.theindyboys.com/cool-bus/
